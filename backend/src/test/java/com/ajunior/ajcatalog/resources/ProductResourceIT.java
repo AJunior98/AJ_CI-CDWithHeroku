@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.resources;
+package com.ajunior.ajcatalog.resources;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
@@ -16,8 +16,8 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.ajunior.ajcatalog.dto.ProductDTO;
-import com.devsuperior.dscatalog.tests.Factory;
-import com.devsuperior.dscatalog.tests.TokenUtil;
+import com.ajunior.ajcatalog.tests.Factory;
+import com.ajunior.ajcatalog.tests.TokenUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootTest

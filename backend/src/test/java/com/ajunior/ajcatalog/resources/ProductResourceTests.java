@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.resources;
+package com.ajunior.ajcatalog.resources;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
@@ -29,8 +29,8 @@ import com.ajunior.ajcatalog.dto.ProductDTO;
 import com.ajunior.ajcatalog.services.ProductService;
 import com.ajunior.ajcatalog.services.exceptions.DatabaseException;
 import com.ajunior.ajcatalog.services.exceptions.ResourceNotFoundException;
-import com.devsuperior.dscatalog.tests.Factory;
-import com.devsuperior.dscatalog.tests.TokenUtil;
+import com.ajunior.ajcatalog.tests.Factory;
+import com.ajunior.ajcatalog.tests.TokenUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootTest

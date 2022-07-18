@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.services;
+package com.ajunior.ajcatalog.services;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.times;
@@ -27,7 +27,7 @@ import com.ajunior.ajcatalog.repositories.ProductRepository;
 import com.ajunior.ajcatalog.services.ProductService;
 import com.ajunior.ajcatalog.services.exceptions.DatabaseException;
 import com.ajunior.ajcatalog.services.exceptions.ResourceNotFoundException;
-import com.devsuperior.dscatalog.tests.Factory;
+import com.ajunior.ajcatalog.tests.Factory;
 
 @ExtendWith(SpringExtension.class)
 public class ProductServiceTests {

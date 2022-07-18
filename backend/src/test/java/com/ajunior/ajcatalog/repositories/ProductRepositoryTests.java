@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.repositories;
+package com.ajunior.ajcatalog.repositories;
 
 import java.util.Optional;
 
@@ -11,7 +11,7 @@ import org.springframework.dao.EmptyResultDataAccessException;
 
 import com.ajunior.ajcatalog.entities.Product;
 import com.ajunior.ajcatalog.repositories.ProductRepository;
-import com.devsuperior.dscatalog.tests.Factory;
+import com.ajunior.ajcatalog.tests.Factory;
 
 @DataJpaTest
 public class ProductRepositoryTests {

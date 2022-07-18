@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.tests;
+package com.ajunior.ajcatalog.tests;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.httpBasic;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
