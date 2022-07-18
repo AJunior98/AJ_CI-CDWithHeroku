@@ -66,4 +66,4 @@ Link deste repositorio no Heroku: https://ajdeploy-heroku.herokuapp.com/
 
 Collection do Postman para teste: https://www.getpostman.com/collections/57b3db0ca631de797502
 
-
+Obs: No postman, você deve colar o link do heroku acima no lugar das chaves chamadas {{host}}, caso contrario, o end-point não irá trazer nenhum resultado.
