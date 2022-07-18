@@ -1,5 +1,6 @@
 # CI/CD With Heroku
 
+
 Este é um mini projeto de WebServices Rest para configuração do CI/CD no Heroku, a intenção é simplesmente ter um repositorio com esses conceitos, caso seja preciso reutilizar futuramente.
 
 # Passo a passo
@@ -29,7 +30,7 @@ Este é um mini projeto de WebServices Rest para configuração do CI/CD no Hero
 
 - Arquivo system.properties
 
-java.runtime.version=11
+  java.runtime.version=11
 
 - Configurar variáveis de ambiente no Heroku
 
@@ -58,4 +59,11 @@ java.runtime.version=11
   - Monorepositório (subpasta):
 
     git subtree push --prefix backend heroku main
+
+# Testes
+
+Link deste repositorio no Heroku: https://ajdeploy-heroku.herokuapp.com/
+
+Collection do Postman para teste: https://www.getpostman.com/collections/57b3db0ca631de797502
+
 
